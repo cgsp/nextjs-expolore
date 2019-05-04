@@ -1,0 +1,18 @@
+{
+  "name": "nextjs-expolore",
+  "version": "1.0.0",
+  "description": "nextjs-expolore",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgsp/nextjs-expolore.git"
+  },
+  "keywords": [],
+  "author": "gsp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgsp/nextjs-expolore/issues"
+  },
+  "homepage": "https://github.com/cgsp/nextjs-expolore#readme"
+}
