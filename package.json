@@ -14,5 +14,10 @@
   "bugs": {
     "url": "https://github.com/cgsp/nextjs-expolore/issues"
   },
-  "homepage": "https://github.com/cgsp/nextjs-expolore#readme"
+  "homepage": "https://github.com/cgsp/nextjs-expolore#readme",
+  "dependencies": {
+    "next": "8.0.3",
+    "react": "16.8.5",
+    "react-dom": "16.8.5"
+  }
 }
