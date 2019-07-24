@@ -1,23 +1,28 @@
 {
   "name": "nextjs-expolore",
   "version": "1.0.0",
-  "description": "nextjs-expolore",
+  "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cgsp/nextjs-expolore.git"
   },
   "keywords": [],
-  "author": "gsp",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cgsp/nextjs-expolore/issues"
   },
   "homepage": "https://github.com/cgsp/nextjs-expolore#readme",
   "dependencies": {
-    "next": "8.0.3",
-    "react": "16.8.5",
-    "react-dom": "16.8.5"
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }

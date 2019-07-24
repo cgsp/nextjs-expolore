@@ -1,2 +1,0 @@
-# nextjs-expolore
-nextjs-expolore
