@@ -104,7 +104,6 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/xmly/Desktop/nextjs-expolore/pages/index.js";
 
 
 /* 
@@ -116,13 +115,7 @@ var _jsxFileName = "/Users/xmly/Desktop/nextjs-expolore/pages/index.js";
  */
 //  在写next的时候，不需要，在文件的顶部，import react,因为，next已经全局处理了这个
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "\u8FD9\u662F\u4E2A\u9875\u9762");
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\u8FD9\u662F\u4E2A\u9875\u9762");
 });
 
 /***/ }),

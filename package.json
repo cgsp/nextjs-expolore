@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/cgsp/nextjs-expolore#readme",
   "dependencies": {
+    "koa": "^2.7.0",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
