@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -111,16 +111,16 @@ __webpack_require__.r(__webpack_exports__);
  * @Author: John.Guan 
  * @Date: 2019-07-24 22:23:35 
  * @Last Modified by: John.Guan
- * @Last Modified time: 2019-07-24 22:24:14
+ * @Last Modified time: 2019-08-13 22:59:55
  */
 //  在写next的时候，不需要，在文件的顶部，import react,因为，next已经全局处理了这个
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\u8FD9\u662F\u4E2A\u9875\u9762");
+/* harmony default export */ __webpack_exports__["default"] = (() => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\u8FD9\u662F\u4E2A\u9875\u97621111");
 });
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

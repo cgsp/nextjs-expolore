@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
+    "dev:next": "next",
+    "dev:server": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "dev:build": "next start"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   },
   "homepage": "https://github.com/cgsp/nextjs-expolore#readme",
   "dependencies": {
+    "ioredis": "^4.14.0",
     "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
