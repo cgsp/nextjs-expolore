@@ -1,6 +1,7 @@
 const Koa = require('koa')
 const Router = require('koa-router')
 const next = require('next')
+const router = new Router()
 
 // 区分环境
 const isDev = process.env.NODE_ENV !== 'production'
@@ -13,6 +14,19 @@ const handle = app.getRequestHandler()
 // 等编译完成了之后，再做Koa服务
 app.prepare().then(() => {
   const server = new Koa()
+
+  router.get('/a/:name', async ctx => {
+    const name = ctx.params.name
+    await handle(ctx.req, ctx.res, {
+      pathname: '/a',
+      qurey: {
+        name
+      }
+    })
+    ctx.respond = false
+  })
+  server.use(router.routes())
+
   // 调用中间件
   server.use(async (context, next) => {
     await handle(context.req, context.res)
